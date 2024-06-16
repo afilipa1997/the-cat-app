@@ -17,18 +17,12 @@ public protocol EndpointProtocol {
 
 //Defining common variables through all endpoints
 extension EndpointProtocol {
-    var url: URL? {
-        guard let url = URL(string: "https://api.thecatapi.com/v1/images/search") else {
-                fatalError("Invalid URL string")
-        }
-        return url
-    }
     
     var headers: [String: String]? {
         let apiKey = "live_xZVazmVeZ9oR0ISVx7iwifkOpqmXRdOjKv87PI91PhdQu5KOwbxHJChBZUN6Vufd"
-            return [
-                "x-api-key": apiKey,
-                "Content-Type": "application/json"
-            ]
+        return [
+            "x-api-key": apiKey,
+            "Content-Type": "application/json"
+        ]
     }
 }

@@ -29,7 +29,7 @@ struct ContentView: View {
                     ScrollView {
                         LazyVGrid(columns: columns, spacing: 20) {
                             ForEach(viewModel.cats, id: \.id) { cat in
-                                CatImageView(url: cat.url)
+                                Image(systemName: "house")
                             }
                         }
                     }

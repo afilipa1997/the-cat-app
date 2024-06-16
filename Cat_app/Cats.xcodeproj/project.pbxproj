@@ -18,14 +18,16 @@
 		3E2FCB6A2C1CE8A500BC5796 /* Cat_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB692C1CE8A500BC5796 /* Cat_appUITestsLaunchTests.swift */; };
 		3E2FCB7D2C1DD9E400BC5796 /* CatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB7C2C1DD9E400BC5796 /* CatEntity.swift */; };
 		3E2FCB802C1DEB8600BC5796 /* CatsListRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB7F2C1DEB8600BC5796 /* CatsListRemoteRepository.swift */; };
-		3E2FCB872C1DED0F00BC5796 /* CatEntityDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB862C1DED0F00BC5796 /* CatEntityDB.swift */; };
-		3E2FCB8D2C1DF4DA00BC5796 /* FetchCatsListEnpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB8C2C1DF4DA00BC5796 /* FetchCatsListEnpoint.swift */; };
+		3E2FCB872C1DED0F00BC5796 /* BreedImageDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB862C1DED0F00BC5796 /* BreedImageDB.swift */; };
+		3E2FCB8D2C1DF4DA00BC5796 /* FetchBreedsListEnpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB8C2C1DF4DA00BC5796 /* FetchBreedsListEnpoint.swift */; };
 		3E2FCB8F2C1DF52400BC5796 /* EndpointsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB8E2C1DF52400BC5796 /* EndpointsProtocol.swift */; };
 		3E2FCB912C1DF56000BC5796 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB902C1DF56000BC5796 /* HTTPMethods.swift */; };
 		3E2FCB932C1DFBDE00BC5796 /* APIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB922C1DFBDE00BC5796 /* APIProtocol.swift */; };
 		3E2FCB982C1E035C00BC5796 /* CatsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCB972C1E035C00BC5796 /* CatsListViewModel.swift */; };
-		3E2FCBD72C1E221300BC5796 /* mockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E2FCBD62C1E221300BC5796 /* mockData.json */; };
+		3E2FCBD72C1E221300BC5796 /* mockBreedListData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E2FCBD62C1E221300BC5796 /* mockBreedListData.json */; };
 		3E2FCBDA2C1E512400BC5796 /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2FCBD92C1E512400BC5796 /* CatImageView.swift */; };
+		3E56DB1E2C1F22200097B833 /* mockCatImagesList.json in Sources */ = {isa = PBXBuildFile; fileRef = 3E56DB1D2C1F22200097B833 /* mockCatImagesList.json */; };
+		3E56DB212C1F37460097B833 /* FetchImagesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56DB202C1F37460097B833 /* FetchImagesEndpoint.swift */; };
 		3E75289F2C1F1C32000B1128 /* BreedDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75289E2C1F1C32000B1128 /* BreedDB.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,14 +63,16 @@
 		3E2FCB692C1CE8A500BC5796 /* Cat_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3E2FCB7C2C1DD9E400BC5796 /* CatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatEntity.swift; sourceTree = "<group>"; };
 		3E2FCB7F2C1DEB8600BC5796 /* CatsListRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListRemoteRepository.swift; sourceTree = "<group>"; };
-		3E2FCB862C1DED0F00BC5796 /* CatEntityDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatEntityDB.swift; sourceTree = "<group>"; };
-		3E2FCB8C2C1DF4DA00BC5796 /* FetchCatsListEnpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCatsListEnpoint.swift; sourceTree = "<group>"; };
+		3E2FCB862C1DED0F00BC5796 /* BreedImageDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImageDB.swift; sourceTree = "<group>"; };
+		3E2FCB8C2C1DF4DA00BC5796 /* FetchBreedsListEnpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchBreedsListEnpoint.swift; sourceTree = "<group>"; };
 		3E2FCB8E2C1DF52400BC5796 /* EndpointsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointsProtocol.swift; sourceTree = "<group>"; };
 		3E2FCB902C1DF56000BC5796 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		3E2FCB922C1DFBDE00BC5796 /* APIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProtocol.swift; sourceTree = "<group>"; };
 		3E2FCB972C1E035C00BC5796 /* CatsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListViewModel.swift; sourceTree = "<group>"; };
-		3E2FCBD62C1E221300BC5796 /* mockData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockData.json; sourceTree = "<group>"; };
+		3E2FCBD62C1E221300BC5796 /* mockBreedListData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockBreedListData.json; sourceTree = "<group>"; };
 		3E2FCBD92C1E512400BC5796 /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
+		3E56DB1D2C1F22200097B833 /* mockCatImagesList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockCatImagesList.json; sourceTree = "<group>"; };
+		3E56DB202C1F37460097B833 /* FetchImagesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImagesEndpoint.swift; sourceTree = "<group>"; };
 		3E75289E2C1F1C32000B1128 /* BreedDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,7 +133,8 @@
 				3E2FCB4B2C1CE8A500BC5796 /* Assets.xcassets */,
 				3E2FCB522C1CE8A500BC5796 /* Cat_app_storage.xcdatamodeld */,
 				3E2FCB4D2C1CE8A500BC5796 /* Preview Content */,
-				3E2FCBD62C1E221300BC5796 /* mockData.json */,
+				3E2FCBD62C1E221300BC5796 /* mockBreedListData.json */,
+				3E56DB1D2C1F22200097B833 /* mockCatImagesList.json */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -231,7 +236,7 @@
 		3E2FCB842C1DECDA00BC5796 /* DBEntities */ = {
 			isa = PBXGroup;
 			children = (
-				3E2FCB862C1DED0F00BC5796 /* CatEntityDB.swift */,
+				3E2FCB862C1DED0F00BC5796 /* BreedImageDB.swift */,
 				3E75289E2C1F1C32000B1128 /* BreedDB.swift */,
 			);
 			path = DBEntities;
@@ -240,17 +245,18 @@
 		3E2FCB8A2C1DF4A500BC5796 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
-				3E2FCB8B2C1DF4B100BC5796 /* FetchCatsList */,
+				3E56DB1F2C1F371F0097B833 /* Images */,
+				3E2FCB8B2C1DF4B100BC5796 /* Breeds */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
 		};
-		3E2FCB8B2C1DF4B100BC5796 /* FetchCatsList */ = {
+		3E2FCB8B2C1DF4B100BC5796 /* Breeds */ = {
 			isa = PBXGroup;
 			children = (
-				3E2FCB8C2C1DF4DA00BC5796 /* FetchCatsListEnpoint.swift */,
+				3E2FCB8C2C1DF4DA00BC5796 /* FetchBreedsListEnpoint.swift */,
 			);
-			path = FetchCatsList;
+			path = Breeds;
 			sourceTree = "<group>";
 		};
 		3E2FCB942C1E032E00BC5796 /* Scenes */ = {
@@ -284,6 +290,14 @@
 				3E2FCBD92C1E512400BC5796 /* CatImageView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3E56DB1F2C1F371F0097B833 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E56DB202C1F37460097B833 /* FetchImagesEndpoint.swift */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,7 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E2FCBD72C1E221300BC5796 /* mockData.json in Resources */,
+				3E2FCBD72C1E221300BC5796 /* mockBreedListData.json in Resources */,
 				3E2FCB4F2C1CE8A500BC5796 /* Preview Assets.xcassets in Resources */,
 				3E2FCB4C2C1CE8A500BC5796 /* Assets.xcassets in Resources */,
 			);
@@ -419,15 +433,17 @@
 			files = (
 				3E2FCB8F2C1DF52400BC5796 /* EndpointsProtocol.swift in Sources */,
 				3E2FCB542C1CE8A500BC5796 /* Cat_app_storage.xcdatamodeld in Sources */,
+				3E56DB1E2C1F22200097B833 /* mockCatImagesList.json in Sources */,
 				3E2FCB7D2C1DD9E400BC5796 /* CatEntity.swift in Sources */,
-				3E2FCB8D2C1DF4DA00BC5796 /* FetchCatsListEnpoint.swift in Sources */,
+				3E2FCB8D2C1DF4DA00BC5796 /* FetchBreedsListEnpoint.swift in Sources */,
+				3E56DB212C1F37460097B833 /* FetchImagesEndpoint.swift in Sources */,
 				3E2FCB932C1DFBDE00BC5796 /* APIProtocol.swift in Sources */,
 				3E2FCB982C1E035C00BC5796 /* CatsListViewModel.swift in Sources */,
 				3E2FCB802C1DEB8600BC5796 /* CatsListRemoteRepository.swift in Sources */,
 				3E2FCB512C1CE8A500BC5796 /* Persistence.swift in Sources */,
 				3E75289F2C1F1C32000B1128 /* BreedDB.swift in Sources */,
 				3E2FCBDA2C1E512400BC5796 /* CatImageView.swift in Sources */,
-				3E2FCB872C1DED0F00BC5796 /* CatEntityDB.swift in Sources */,
+				3E2FCB872C1DED0F00BC5796 /* BreedImageDB.swift in Sources */,
 				3E2FCB4A2C1CE8A300BC5796 /* ContentView.swift in Sources */,
 				3E2FCB482C1CE8A300BC5796 /* CatsApp.swift in Sources */,
 				3E2FCB912C1DF56000BC5796 /* HTTPMethods.swift in Sources */,

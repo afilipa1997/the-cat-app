@@ -11,4 +11,8 @@ struct CatEntity: Decodable {
     let id: String
     let breedName: String
     let breedImageURL: URL
+    let life_span: String
+    let origin: String
+    let temperament: String
+    let description: String
 }

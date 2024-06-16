@@ -173,8 +173,8 @@
             filePath = "Cats_API/Common/APIProtocol.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "sendRequest(endpoint:responseModel:)"
             landmarkType = "9">
             <Locations>

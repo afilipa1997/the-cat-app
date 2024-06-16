@@ -7,208 +7,81 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "56E33A3D-811B-4B2F-8F22-45BD17478077"
+            uuid = "FAACDFE8-3177-4B37-9AD0-5F2DBF147798"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cat_app/ContentView.swift"
+            filePath = "Cats/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "deleteItems(offsets:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "56E33A3D-811B-4B2F-8F22-45BD17478077 - b7b2cb32b1d7ae85"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Cat_app.ContentView.deleteItems(offsets: Foundation.IndexSet) -&gt; ()"
-                  moduleName = "Cat_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cat_app/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "201">
-               </Location>
-               <Location
-                  uuid = "56E33A3D-811B-4B2F-8F22-45BD17478077 - 186270dc3f0137c5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Int) -&gt; __C.NSManagedObject in closure #1 () -&gt; () in Cat_app.ContentView.deleteItems(offsets: Foundation.IndexSet) -&gt; ()"
-                  moduleName = "Cat_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cat_app/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "258">
-               </Location>
-               <Location
-                  uuid = "56E33A3D-811B-4B2F-8F22-45BD17478077 - 25c403976ae1d0dd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "implicit closure #2 (__C.NSManagedObject) -&gt; () in implicit closure #1 (__C.NSManagedObjectContext) -&gt; (__C.NSManagedObject) -&gt; () in closure #1 () -&gt; () in Cat_app.ContentView.deleteItems(offsets: Foundation.IndexSet) -&gt; ()"
-                  moduleName = "Cat_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cat_app/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "60">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "113F0050-F977-46C1-A01C-5BA455A55504"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cat_app/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "deleteItems(offsets:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "113F0050-F977-46C1-A01C-5BA455A55504 - 89ac4f9b3ed87a52"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Cat_app.ContentView.deleteItems(offsets: Foundation.IndexSet) -&gt; ()"
-                  moduleName = "Cat_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cat_app/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "250">
-               </Location>
-               <Location
-                  uuid = "113F0050-F977-46C1-A01C-5BA455A55504 - b7b2cb32b1d7aea6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Cat_app.ContentView.deleteItems(offsets: Foundation.IndexSet) -&gt; ()"
-                  moduleName = "Cat_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cat_app/ContentView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "161">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1264C5C8-74CA-4B11-95F6-20D6BE5063EB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cat_app/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "deleteItems(offsets:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B9AF94D0-C295-444D-A337-9690EE4EE14B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cat_app/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "body"
             landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4B8D680D-7567-48F6-8FF9-7EC5E62E8BA3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cat_app/ContentView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "body"
-            landmarkType = "24">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "74BF5EC4-E903-42EB-8F20-835308BE29BF"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Cats_API/Common/APIProtocol.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "sendRequest(endpoint:responseModel:)"
-            landmarkType = "9">
             <Locations>
                <Location
-                  uuid = "74BF5EC4-E903-42EB-8F20-835308BE29BF - eb4fc3c7286698d5"
+                  uuid = "FAACDFE8-3177-4B37-9AD0-5F2DBF147798 - dbedc589f0eb3626"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for Cats.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Cats.EndpointProtocol, responseModel: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.Group&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt;&gt;&gt;&gt; in Cats.ContentView.body.getter : some"
                   moduleName = "Cats"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats_API/Common/APIProtocol.swift"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "1172">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "267">
                </Location>
                <Location
-                  uuid = "74BF5EC4-E903-42EB-8F20-835308BE29BF - 809c3412218ddc15"
+                  uuid = "FAACDFE8-3177-4B37-9AD0-5F2DBF147798 - c624d41e0c209775"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for Cats.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: Cats.EndpointProtocol, responseModel: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
+                  symbolName = "closure #1 (Cats.CatEntity) -&gt; Swift.Bool in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt; in closure #1 () -&gt; SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.Group&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;SwiftUI.LazyVGrid&lt;SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Swift.String, SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text)&gt;&gt;&gt;&gt;&gt;&gt; in Cats.ContentView.body.getter : some"
                   moduleName = "Cats"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats_API/Common/APIProtocol.swift"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats/ContentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "3717">
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "86">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B92A0B2-D51F-4EC7-A05D-4DEC681CC8EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats/Scenes/CatsList/View Model/CatsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchCats()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FC754C6-AE1F-4793-AB8D-6127F1AB8DA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats/Scenes/CatsList/View Model/CatsListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchCats()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -42,11 +42,12 @@ public func sendRequest<T: Decodable>(endpoint: EndpointProtocol, responseModel:
     let jsonUrl: URL
     switch endpoint {
     case is FetchImagesEndpoint:
-        jsonUrl = Bundle.main.url(forResource: "mockCatImagesList", withExtension: "json")!
+        jsonUrl = Bundle.main.url(forResource: "mockImageList",
+                                  withExtension: "json")!
     case is FetchBreedsListEnpoint:
         jsonUrl = Bundle.main.url(forResource: "mockBreedListData", withExtension: "json")!
     default:
-        jsonUrl = Bundle.main.url(forResource: "mockCatImagesList", withExtension: "json")!
+        jsonUrl = Bundle.main.url(forResource: "mockImageList", withExtension: "json")!
     }
     
     //let json = Bundle.main.url(forResource: "mock", withExtension: "json")!

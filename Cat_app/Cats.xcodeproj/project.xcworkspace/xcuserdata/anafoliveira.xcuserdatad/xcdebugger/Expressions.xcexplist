@@ -3,27 +3,46 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in ContentView.body.getter:ContentView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.cats.filter{ $0.breedImageURL != nil ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "implicit closure #2 in implicit closure #1 in closure #1 in closure #1 in ContentView.body.getter:ContentView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "implicit closure #2 in implicit closure #1 in closure #1 in ContentView.deleteItems(offsets:):ContentView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in CatsListViewModel.fetchCats():CatsListViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in closure #1 in closure #1 in ContentView.body.getter:ContentView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "sendRequest&lt;&#x3c4;_0_0&gt;(endpoint:responseModel:):APIProtocol.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in ContentView.body.getter:ContentView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ContentView.deleteItems(offsets:):ContentView.swift">
+      </ContextState>
+      <ContextState
          contextName = "CatsListRemoteRepository.fetchRemoteCatsList():CatsListRemoteRepository.swift">
          <PersistentStrings>
             <PersistentString
                value = "FetchCatsListEnpoint()">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "sendRequest&lt;&#x3c4;_0_0&gt;(endpoint:responseModel:):APIProtocol.swift">
-      </ContextState>
-      <ContextState
-         contextName = "implicit closure #2 in implicit closure #1 in closure #1 in closure #1 in ContentView.body.getter:ContentView.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #2 in closure #1 in closure #1 in closure #1 in ContentView.body.getter:ContentView.swift">
-      </ContextState>
-      <ContextState
-         contextName = "ContentView.deleteItems(offsets:):ContentView.swift">
-      </ContextState>
-      <ContextState
-         contextName = "implicit closure #2 in implicit closure #1 in closure #1 in ContentView.deleteItems(offsets:):ContentView.swift">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

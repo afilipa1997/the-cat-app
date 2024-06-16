@@ -9,11 +9,11 @@ import Foundation
 import Combine
 
 class CatsListViewModel: ObservableObject {
-    @Published var cats: [BreedDB] = []
+    @Published var cats: [CatEntity] = []
     @Published var isLoading = false
     @Published var error: Error?
     
-    private let repository = CatsListRemoteRepository()
+    private let useCase = CatsListUseCase(repository: CatsListRepository(remoteRepository: CatsListRemoteRepository()))
     
     init() {
         fetchCats()
@@ -25,7 +25,7 @@ class CatsListViewModel: ObservableObject {
         Task {
             do {
                 try await Task.sleep(nanoseconds: 3_000_000_000)
-                let fetchedCats = try await repository.fetchRemoteBreedsList()
+                let fetchedCats = try await useCase.fetchCatBreedsList()
                 DispatchQueue.main.async {
                     self.cats = fetchedCats
                     self.isLoading = false

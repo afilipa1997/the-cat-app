@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct BreedListContentView: View {
     @StateObject private var viewModel = CatsListViewModel()
     
     private let columns = [
@@ -28,14 +28,17 @@ struct ContentView: View {
                 } else {
                     ScrollView {
                         LazyVGrid(columns: columns, spacing: 20) {
-                            ForEach(viewModel.cats, id: \.id) { cat in
-                                Image(systemName: "house")
+                            ForEach(viewModel.cats.filter{ $0.breedImageURL != nil },
+                                    id: \.id) { cat in
+                                BreedImageTextView(url: cat.breedImageURL,
+                                             breedName: cat.breedName)
                             }
-                        }
+                        }.padding(.horizontal)
                     }
                 }
             }
         }
+        .navigationTitle("Breed List")
         .onAppear {
             viewModel.fetchCats()
         }

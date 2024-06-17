@@ -55,32 +55,190 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9B92A0B2-D51F-4EC7-A05D-4DEC681CC8EE"
+            uuid = "A1D28A8C-E899-446E-9AB7-37998F98170D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cats/Scenes/CatsList/View Model/CatsListViewModel.swift"
+            filePath = "Cats_Domain/UseCases/CatsList/CatsListUseCase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "fetchCats()"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchCatBreedsList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1D28A8C-E899-446E-9AB7-37998F98170D - 934933f1771a4cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Cats.CatsListUseCase.fetchCatBreedsList() async throws -&gt; Swift.Array&lt;Cats.CatEntity&gt;"
+                  moduleName = "Cats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats_Domain/UseCases/CatsList/CatsListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "A1D28A8C-E899-446E-9AB7-37998F98170D - 301b3a47eabc2cc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for Cats.CatsListUseCase.fetchCatBreedsList() async throws -&gt; Swift.Array&lt;Cats.CatEntity&gt;"
+                  moduleName = "Cats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats_Domain/UseCases/CatsList/CatsListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "A1D28A8C-E899-446E-9AB7-37998F98170D - 7e522c1619d0cecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for Cats.CatsListUseCase.fetchCatBreedsList() async throws -&gt; Swift.Array&lt;Cats.CatEntity&gt;"
+                  moduleName = "Cats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats_Domain/UseCases/CatsList/CatsListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "A1D28A8C-E899-446E-9AB7-37998F98170D - 58ff618cbe0ad4f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for Cats.CatsListUseCase.fetchCatBreedsList() async throws -&gt; Swift.Array&lt;Cats.CatEntity&gt;"
+                  moduleName = "Cats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats_Domain/UseCases/CatsList/CatsListUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34756ACA-F610-41B9-8CD0-A5B0650D95DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats/BreedListContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "34756ACA-F610-41B9-8CD0-A5B0650D95DA - 5bb2d242c41d52ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Foundation.UUID, Cats.BreedImageTextView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.Group&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in Cats.BreedListContentView.body.getter : some"
+                  moduleName = "Cats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats/BreedListContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "34756ACA-F610-41B9-8CD0-A5B0650D95DA - 7438deced804eb47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Cats.CatEntity) -&gt; Swift.Bool in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Cats.CatEntity&gt;, Foundation.UUID, Cats.BreedImageTextView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.Group&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.ProgressView&lt;SwiftUI.Text, SwiftUI.EmptyView&gt;, SwiftUI.Text&gt;, SwiftUI.ScrollView&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in Cats.BreedListContentView.body.getter : some"
+                  moduleName = "Cats"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anafoliveira/Desktop/the-cat-app/Cat_app/Cats/BreedListContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B362E157-84E5-47FC-8C6E-7E9EEE026E3E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats/BreedListContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "677CF29A-462B-4D09-A562-4052B08AC3CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats_Domain/Entities/CatEntity.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "asCatEntity()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8FC754C6-AE1F-4793-AB8D-6127F1AB8DA3"
+            uuid = "E6A4C3F2-292E-4A39-8179-C16151B847E0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Cats/Scenes/CatsList/View Model/CatsListViewModel.swift"
+            filePath = "Cats_Domain/UseCases/CatsList/CatsListUseCase.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "fetchCats()"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "fetchCatBreedsList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B8A7977-9B3B-49D4-B712-6B07B9D26091"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats_Domain/Repositories/CatsList/CatsListRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchRemoteBreedsImageList()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

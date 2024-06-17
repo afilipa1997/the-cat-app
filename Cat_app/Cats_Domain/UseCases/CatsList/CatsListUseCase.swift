@@ -19,20 +19,35 @@ class CatsListUseCase: CatsListUseCaseProtocol {
     }
     
     func fetchCatBreedsList() async throws -> [CatEntity] {
-        // Fetch breeds and images concurrently using async let (both calls are done in parallel)
+        var localCats: [CatEntity] = []
+        do {
+            // Try to fetch local cat entities
+            localCats = try repository.fetchLocalCatEntities()
+        } catch {
+            print("Failed to fetch local cats: \(error)")
+        }
+        
+        if !localCats.isEmpty {
+            return localCats
+        }
+        
+        // If local fetch failed or returned no results, fetch from remote
         async let breeds = repository.fetchRemoteBreedsList()
         async let images = repository.fetchRemoteBreedsImageList()
         
-        //the results of those calls are awaited simultaneously
+        // Await both remote fetches simultaneously
         let (breedsList, imagesList) = try await (breeds, images)
         
         // Map breeds and images to CatEntity instances
         let catEntities = breedsList.map { breed in
-            // Find corresponding image (if exists)
             let breedImage = imagesList.first { $0.id == breed.refImageId }
-            return CatEntity(breedInfo: breed,
+            return CatEntity(breedInfo: breed, 
                              catImageInfo: breedImage)
         }
+        
+        // Save the fetched entities to Core Data
+        try repository.saveCatEntitiesToCoreData(cats: catEntities)
+        
         return catEntities
     }
 }

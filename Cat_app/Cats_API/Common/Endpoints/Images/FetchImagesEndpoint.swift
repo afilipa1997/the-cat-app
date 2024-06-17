@@ -30,9 +30,9 @@ class FetchImagesEndpoint: EndpointProtocol {
             URLQueryItem(name: "mime_types", value: "jpg"),
             URLQueryItem(name: "format", value: "json"),
             URLQueryItem(name: "has_breeds", value: "true"),
-            URLQueryItem(name: "order", value: "RANDOM"),
+            URLQueryItem(name: "order", value: "ASC"),
             URLQueryItem(name: "page", value: "0"),
-            URLQueryItem(name: "limit", value: "25")
+            URLQueryItem(name: "limit", value: "100")
         ]
     }
 }

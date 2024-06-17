@@ -14,7 +14,7 @@ struct BreedEntity {
     let lifeSpan: String
     let origin: String
     let temperament: String
-    let description: String
+    let breedDescription: String
 }
 
 extension BreedDB {
@@ -25,7 +25,7 @@ extension BreedDB {
                     lifeSpan: lifeSpan,
                     origin: origin,
                     temperament: temperament,
-                    description: description)
+                    breedDescription: breedDescription)
     }
 }
 

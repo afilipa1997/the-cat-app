@@ -15,7 +15,7 @@ struct BreedImageEntity {
 
 extension BreedImageDB {
     func asBreedImageEntity() -> BreedImageEntity {
-        BreedImageEntity(id: id ,
+        BreedImageEntity(id: id,
                          imageUrl: imageUrl )
     }
 }

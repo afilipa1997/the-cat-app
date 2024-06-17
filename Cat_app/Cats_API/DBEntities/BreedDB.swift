@@ -14,7 +14,7 @@ struct BreedDB: Decodable {
     let lifeSpan: String
     let origin: String
     let temperament: String
-    let description: String
+    let breedDescription: String
     
     enum CodingKeys: String, CodingKey {
         case refImageId = "reference_image_id"
@@ -23,6 +23,6 @@ struct BreedDB: Decodable {
         case name
         case origin
         case temperament
-        case description
+        case breedDescription = "description"
     }
 }

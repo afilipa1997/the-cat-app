@@ -1,5 +1,5 @@
 //
-//  CatEntityDB.swift
+//  BreedImageDB.swift
 //  Cats
 //
 //  Created by Oliveira, Ana Filipa on 15/06/2024.

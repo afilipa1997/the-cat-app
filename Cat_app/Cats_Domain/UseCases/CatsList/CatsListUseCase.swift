@@ -46,7 +46,7 @@ class CatsListUseCase: CatsListUseCaseProtocol {
         }
         
         // Save the fetched entities to Core Data
-        try repository.saveCatEntitiesToCoreData(cats: catEntities)
+        try repository.saveLocalCatEntities(cats: catEntities)
         
         return catEntities
     }

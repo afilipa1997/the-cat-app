@@ -13,7 +13,8 @@ class CatsListViewModel: ObservableObject {
     @Published var isLoading = false
     @Published var error: Error?
     
-    private let useCase = CatsListUseCase(repository: CatsListRepository(remoteRepository: CatsListRemoteRepository()))
+    private let useCase = CatsListUseCase(repository: CatsListRepository(remoteRepository: CatsListRemoteRepository(), 
+                                                                         storageRepository: CatsListStorageRepository()))
     
     init() {
         fetchCats()

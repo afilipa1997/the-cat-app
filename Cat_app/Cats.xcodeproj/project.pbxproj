@@ -32,6 +32,7 @@
 		3E56DB292C1F46330097B833 /* BreedImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56DB282C1F46330097B833 /* BreedImageEntity.swift */; };
 		3E56DB2B2C1F46460097B833 /* BreedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E56DB2A2C1F46460097B833 /* BreedEntity.swift */; };
 		3E56DB2D2C1F596B0097B833 /* mockImageList.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E56DB2C2C1F596B0097B833 /* mockImageList.json */; };
+		3E6B4DA92C20E5650094CD65 /* CatsListStorageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B4DA82C20E5650094CD65 /* CatsListStorageRepository.swift */; };
 		3E75289F2C1F1C32000B1128 /* BreedDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75289E2C1F1C32000B1128 /* BreedDB.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		3E56DB282C1F46330097B833 /* BreedImageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedImageEntity.swift; sourceTree = "<group>"; };
 		3E56DB2A2C1F46460097B833 /* BreedEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedEntity.swift; sourceTree = "<group>"; };
 		3E56DB2C2C1F596B0097B833 /* mockImageList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockImageList.json; sourceTree = "<group>"; };
+		3E6B4DA82C20E5650094CD65 /* CatsListStorageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListStorageRepository.swift; sourceTree = "<group>"; };
 		3E75289E2C1F1C32000B1128 /* BreedDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,6 +190,7 @@
 			children = (
 				3E2FCB842C1DECDA00BC5796 /* DBEntities */,
 				3E2FCB812C1DEC4900BC5796 /* Common */,
+				3E6B4DA72C20E53B0094CD65 /* Storage Repository */,
 				3E2FCB7E2C1DEB5000BC5796 /* Remote Repositories */,
 			);
 			path = Cats_API;
@@ -326,6 +329,14 @@
 				3E56DB262C1F41790097B833 /* CatsListRepository.swift */,
 			);
 			path = CatsList;
+			sourceTree = "<group>";
+		};
+		3E6B4DA72C20E53B0094CD65 /* Storage Repository */ = {
+			isa = PBXGroup;
+			children = (
+				3E6B4DA82C20E5650094CD65 /* CatsListStorageRepository.swift */,
+			);
+			path = "Storage Repository";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +489,7 @@
 				3E2FCB4A2C1CE8A300BC5796 /* BreedListContentView.swift in Sources */,
 				3E2FCB482C1CE8A300BC5796 /* CatsApp.swift in Sources */,
 				3E56DB292C1F46330097B833 /* BreedImageEntity.swift in Sources */,
+				3E6B4DA92C20E5650094CD65 /* CatsListStorageRepository.swift in Sources */,
 				3E2FCB912C1DF56000BC5796 /* HTTPMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

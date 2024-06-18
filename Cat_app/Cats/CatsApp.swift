@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct CatsApp: App {
-    let persistenceController = PersistenceController.shared
+    let coreDataManager = CoreDataManager.shared
 
     var body: some Scene  {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            BreedListContentView()
+                .environment(\.managedObjectContext, coreDataManager.persistentContainer.viewContext)
         }
     }
 }

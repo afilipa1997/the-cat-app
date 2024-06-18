@@ -6,10 +6,14 @@
 //
 
 protocol CatsListRepositoryProtocol {
+    //remote
     func fetchRemoteBreedsList() async throws -> [BreedEntity]
     func fetchRemoteBreedsImageList() async throws -> [BreedImageEntity]
+    
+    //local
     func saveLocalCatEntities(cats: [CatEntity]) throws
-    func fetchLocalCatEntities() throws -> [CatEntity]
+    func fetchLocalCatEntities() async throws -> [CatEntity]
+    func updateLocalCatEntity(cat: CatEntity) throws
 }
 
 class CatsListRepository: CatsListRepositoryProtocol {
@@ -37,7 +41,11 @@ class CatsListRepository: CatsListRepositoryProtocol {
         try storageRepository.saveCatEntitiesToCoreData(cats: cats)
     }
     
-    func fetchLocalCatEntities() throws -> [CatEntity] {
+    func fetchLocalCatEntities() async throws -> [CatEntity] {
         try storageRepository.fetchLocalCatEntities()
+    }
+    
+    func updateLocalCatEntity(cat: CatEntity) throws {
+        try storageRepository.updateLocalCatEntity(cat: cat)
     }
 }

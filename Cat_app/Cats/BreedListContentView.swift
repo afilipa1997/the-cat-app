@@ -15,13 +15,13 @@ struct BreedListContentView: View {
         GridItem(.adaptive(minimum: 50), spacing: 20),
         GridItem(.adaptive(minimum: 50), spacing: 20),
         GridItem(.adaptive(minimum: 50), spacing: 20)
-        ]
+    ]
     
     var body: some View {
         NavigationView {
-            Group {
+            VStack {
                 if viewModel.isLoading {
-                    ProgressView("Loading...")
+                    ProgressView("Loading .....")
                 } else if let error = viewModel.error {
                     Text("Error: \(error.localizedDescription)")
                         .foregroundColor(.blue)
@@ -31,16 +31,19 @@ struct BreedListContentView: View {
                             ForEach(viewModel.cats.filter{ $0.breedImageURL != nil },
                                     id: \.id) { cat in
                                 BreedImageTextView(url: cat.breedImageURL,
-                                             breedName: cat.breedName)
+                                                   breedName: cat.breedName,
+                                                   isFavorite: cat.isFavourite,
+                                                   viewModel: viewModel)
                             }
-                        }.padding(.horizontal)
+                        }
+                        .padding(.horizontal)
                     }
                 }
             }
-        }
-        .navigationTitle("Breed List")
-        .onAppear {
-            viewModel.fetchCats()
+            .navigationTitle("Breed List")
+            .onAppear {
+                viewModel.fetchCats()
+            }
         }
     }
 }

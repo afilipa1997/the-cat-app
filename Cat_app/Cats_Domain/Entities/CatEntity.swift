@@ -16,10 +16,13 @@ struct CatEntity: Decodable {
     let origin: String
     let temperament: String
     let breedDescription: String
+    var isFavourite: Bool
     
-    init(breedInfo: BreedEntity,
-         catImageInfo: BreedImageEntity?) {
-        id = UUID()
+    init(id: UUID,
+         breedInfo: BreedEntity,
+         catImageInfo: BreedImageEntity?,
+         isFavourite: Bool) {
+        self.id = id
         breedID = breedInfo.id
         breedName = breedInfo.name
         breedImageURL = URL(string: catImageInfo?.imageUrl ?? "")
@@ -27,12 +30,14 @@ struct CatEntity: Decodable {
         origin = breedInfo.origin
         temperament = breedInfo.temperament
         breedDescription = breedInfo.breedDescription
+        self.isFavourite = isFavourite
     }
 }
 
 extension CatEntityDB {
     func asCatEntity() -> CatEntity {
-        CatEntity(breedInfo: BreedEntity(id: breedID ?? "",
+        CatEntity(id: id ?? UUID(),
+                  breedInfo: BreedEntity(id: breedID ?? "",
                                          name: breedName ?? "",
                                          refImageId: "",
                                          lifeSpan: lifeSpan ?? "",
@@ -40,7 +45,8 @@ extension CatEntityDB {
                                          temperament: temperament ?? "",
                                          breedDescription: breedDescription ?? "") ,
                   catImageInfo: BreedImageEntity(id: breedID ?? "",
-                                                 imageUrl: breedImageURL ?? "") )
+                                                 imageUrl: breedImageURL ?? ""),
+                  isFavourite: isFavourite)
     }
 }
 

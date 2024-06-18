@@ -10,6 +10,8 @@ import SwiftUI
 struct BreedImageTextView: View {
     let url: URL?
     let breedName: String
+    @State var isFavorite: Bool
+    @ObservedObject var viewModel: CatsListViewModel
     
     var body: some View {
         VStack(alignment: .center) {
@@ -24,7 +26,8 @@ struct BreedImageTextView: View {
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .frame(width: 200, height: 200)
+                        .frame(width: 200, 
+                               height: 200)
                         .clipped()
                 case .failure(let error):
                     ZStack {
@@ -37,7 +40,18 @@ struct BreedImageTextView: View {
                     EmptyView()
                 }
             }
-            Image(systemName: "house")
+            Button(action: {
+                // Toggle the favorite state to change UI
+                isFavorite.toggle()
+                
+                //update favorite state in database
+                viewModel.toggleFavorite(for: breedName)
+                
+                
+            }) {
+                Image(systemName: isFavorite ? "star.fill" : "star")
+                    .foregroundColor(isFavorite ? .yellow : .gray)
+            }
             Text(breedName).font(.subheadline)
         }
         .cornerRadius(8)

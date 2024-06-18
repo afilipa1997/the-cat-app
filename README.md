@@ -2,7 +2,8 @@
 
 The Cats app is an iOS app that displays a list of cat breeds along with their images. Users can mark their favorite breeds.
 
-**Disclaimer:** This app was done on a challenge context. And i took it as that. This was my first contact with SwiftUI and its architecture, and although there were some challanges requirements that were not addressed, and for that the challenge may not be accepted, i did a lot of research and learn a lot regarding this new way of building UI. 
+**Disclaimer:** 
+This app was done in a challenge context, and **I took it as that**. This was my first contact with SwiftUI and its architecture, and although there were some challenge requirements that were not addressed, I did a lot of research and have learned a lot regarding this new way of building UI. 
 
 ## Features
 - Display a list of cat breeds with images.
